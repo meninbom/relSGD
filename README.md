@@ -15,10 +15,10 @@ Automação completa para geração e análise de relatórios do sistema **SGD**
 - 📅 **Seleção de datas** e geração automática de relatórios Excel.
 - 📊 **Tabelas Dinâmicas** com técnicos nas linhas e status nas colunas.
 - 📈 **Gráficos:** Barra (em `A3`) e Pizza (em `N3`) diretamente no Excel.
-- 🖥 **Interface Gráfica (GUI):** Criada com `customtkinter`.
-- 📤 **Exportação:** para **CSV**, **PDF** simulado, e **imagens** dos gráficos.
-- 📁 **Comparação de Períodos:** análise técnica ou situacional entre dois relatórios.
-- 📝 **Logging completo** no terminal.
+- 🖥 **Interface Gráfica (GUI):** Criada com `customtkinter`. 
+- 📤 **Exportação:** para **CSV**, **PDF** simulado, e **imagens** dos gráficos. (Working Progress)
+- 📁 **Comparação de Períodos:** análise técnica ou situacional entre dois relatórios. (Working Progress)
+- 📝 **Logging completo** no terminal. 
 - ⚙️ **Executável funcional incluso** no diretório do projeto.
 
 ---
