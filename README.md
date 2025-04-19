@@ -1,5 +1,4 @@
-Claro, Kauã! Aqui está seu README reformulado e mais bonito, com uma estrutura organizada, seções claras e destaque para os pontos principais, mantendo o foco profissional e técnico:
-
+![Python](https://img.shields.io/badge/python-3.10+-blue)
 ---
 
 # 📊 Automação de Relatórios - SGD
