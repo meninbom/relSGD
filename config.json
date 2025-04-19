@@ -1,0 +1,25 @@
+{
+    "usuario": "kaua.silva",
+    "senha": "Praque@12!",
+    "navegador": "Chrome",
+    "download_dir": "C:/Users/Kaua/Documents",
+    "tema": "System",
+    "responsaveis_excluir": [
+        "Allan Cesar Gallan",
+        "Allan Cesar Gallan ",
+        "Amanda Paschoal Monteiro",
+        "Nathan Wilian moreira",
+        "Polyane Oliveira Nita",
+        "Allan Cesar Galan ",
+        "Tiago Rico Bocato",
+        "Técnico DEVOPS (Implantação DW)",
+        "Taynara Santos Viana",
+        "Pricila Martins da Silva",
+        "Gabriel dos Reis Conceição"
+    ],
+    "cores_graficos": {
+        "Concluído": "#008000",
+        "Prescrita": "#FF0000",
+        "Realizado": "#FFA500"
+    }
+}
