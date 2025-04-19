@@ -994,7 +994,7 @@ class App:
         self.root = root
         self.root.title("Automação de Relatórios - SGD")
         self.root.geometry("900x600")
-        self.root.minsize(900, 600)
+        self.root.minsize(1200, 600)
         
         self.config = carregar_configuracoes()
         ctk.set_appearance_mode(self.config.get("tema", "System"))
