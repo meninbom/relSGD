@@ -340,7 +340,7 @@ def executar_script(usuario, senha, data_inicio_raw, data_fim_raw, navegador, do
         raise PermissionError(f"Sem permissão de escrita no diretório: {download_dir}")
     
     options = Options()
-    options.add_argument("--start-maximized")
+    options.add_argument("--start-minimized")
     # Removidas opções potencialmente problemáticas
     # options.add_argument("--disable-extensions")
     # options.add_argument("--incognito")
@@ -367,6 +367,7 @@ def executar_script(usuario, senha, data_inicio_raw, data_fim_raw, navegador, do
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         logger.info("ChromeDriver inicializado com sucesso.")
+        driver.minimize_window()
         
         if callback:
             callback(20, "Acessando sistema...")
