@@ -578,7 +578,7 @@ class VisualizadorGraficos(ctk.CTkToplevel):
         self.limpar_frame_grafico()
         
         fig = Figure(figsize=(8, 8), dpi=100)
-        ax = Figure_subplot(111)
+        ax = Figure_subplot(111) # type: ignore
         
         tabela_plot = self.tabela.drop('Total', axis=1) if 'Total' in self.tabela.columns else self.tabela
         soma_status = tabela_plot.sum()
