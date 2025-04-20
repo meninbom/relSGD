@@ -31,7 +31,7 @@ relSGD/
 ├── README.md          # Este arquivo
 ├── requirements.txt   # Dependências
 ├── relSGD.exe         # Executável funcional da aplicação
-├── config.jsom        # Configurações padrão
+├── config.json        # Configurações padrão
 ```
 
 ---
