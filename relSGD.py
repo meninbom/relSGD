@@ -44,7 +44,7 @@ logger = logging.getLogger(__name__)
 
 # Configuração do tema e aparência
 ctk.set_appearance_mode("System")  # Modes: "System" (standard), "Dark", "Light"
-ctk.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
+ctk.set_default_color_theme("green")  # Themes: "blue" (standard), "green", "dark-blue"
 
 # Constantes e configurações
 CONFIG_FILE = "config.json"
@@ -150,6 +150,8 @@ def processar_dados_excel_direto(caminho_arquivo, config=None, callback=None):
         responsavel_coluna = None
         situacao_coluna = None
         data_coluna = None
+
+        ((By.XPATH, '//*[@id="programacoesForm:agendadoDe"]'))
         
         for coluna in df.columns:
             col_lower = str(coluna).lower()
