@@ -1,8 +1,8 @@
 {
-    "usuario": "",
-    "senha": "",
-    "navegador": "Brave",
-    "download_dir": "C:/Users/Kaua/Downloads",
+    "usuario": "kaua.silva",
+    "senha": "Praque@12!",
+    "navegador": "Chrome",
+    "download_dir": "C:/Users/Kauã/Downloads",
     "tema": "System",
     "responsaveis_excluir": [
         "Allan Cesar Gallan",
@@ -15,8 +15,7 @@
         "Técnico DEVOPS (Implantação DW)",
         "Taynara Santos Viana",
         "Pricila Martins da Silva",
-        "Gabriel dos Reis Conceição",
-        "Kauã de Melo Silva"
+        "Gabriel dos Reis Conceição"
     ],
     "cores_graficos": {
         "Concluído": "#008000",

@@ -1,0 +1,161 @@
+2025-04-22 19:54:24,155 - INFO - Inicializando ChromeDriver...
+2025-04-22 19:54:24,156 - INFO - ====== WebDriver manager ======
+2025-04-22 19:54:27,223 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-22 19:54:27,504 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-22 19:54:27,623 - INFO - There is no [win64] chromedriver "135.0.7049.97" for browser google-chrome "135.0.7049" in cache
+2025-04-22 19:54:27,624 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-22 19:54:28,024 - INFO - WebDriver version 135.0.7049.97 selected
+2025-04-22 19:54:28,031 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.97/win32/chromedriver-win32.zip
+2025-04-22 19:54:28,031 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.97/win32/chromedriver-win32.zip
+2025-04-22 19:54:28,200 - INFO - Driver downloading response is 200
+2025-04-22 19:54:28,630 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-22 19:54:28,983 - INFO - Driver has been saved in cache [C:\Users\Kauã\.wdm\drivers\chromedriver\win64\135.0.7049.97]
+2025-04-22 19:54:32,034 - INFO - ChromeDriver inicializado com sucesso.
+2025-04-22 19:54:32,078 - INFO - Acessando URL: https://sgd.dominiosistemas.com.br
+2025-04-22 19:55:23,108 - INFO - Aguardando campos de login...
+2025-04-22 19:55:23,111 - ERROR - Erro durante a execução: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.100)
+Stacktrace:
+	GetHandleVerifier [0x00DF7FD3+60707]
+	GetHandleVerifier [0x00DF8014+60772]
+	(No symbol) [0x00C20683]
+	(No symbol) [0x00BFFBEE]
+	(No symbol) [0x00C93C2E]
+	(No symbol) [0x00CAE129]
+	(No symbol) [0x00C8CE46]
+	(No symbol) [0x00C5C5D3]
+	(No symbol) [0x00C5D424]
+	GetHandleVerifier [0x0103BAB3+2435075]
+	GetHandleVerifier [0x01037053+2416035]
+	GetHandleVerifier [0x010533FC+2531660]
+	GetHandleVerifier [0x00E0F0A5+155125]
+	GetHandleVerifier [0x00E15A4D+182173]
+	GetHandleVerifier [0x00DFF8A8+91640]
+	GetHandleVerifier [0x00DFFA50+92064]
+	GetHandleVerifier [0x00DEA510+4704]
+	BaseThreadInitThunk [0x7627FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x778F82AE+286]
+	RtlGetAppContainerNamedObjectPath [0x778F827E+238]
+Traceback (most recent call last):
+  File "relSGD.py", line 384, in executar_script
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '/html/body/div/form/input[2]')))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "selenium\webdriver\support\wait.py", line 137, in until
+  File "selenium\webdriver\support\expected_conditions.py", line 110, in _predicate
+  File "selenium\webdriver\remote\webdriver.py", line 898, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 429, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.100)
+Stacktrace:
+	GetHandleVerifier [0x00DF7FD3+60707]
+	GetHandleVerifier [0x00DF8014+60772]
+	(No symbol) [0x00C20683]
+	(No symbol) [0x00BFFBEE]
+	(No symbol) [0x00C93C2E]
+	(No symbol) [0x00CAE129]
+	(No symbol) [0x00C8CE46]
+	(No symbol) [0x00C5C5D3]
+	(No symbol) [0x00C5D424]
+	GetHandleVerifier [0x0103BAB3+2435075]
+	GetHandleVerifier [0x01037053+2416035]
+	GetHandleVerifier [0x010533FC+2531660]
+	GetHandleVerifier [0x00E0F0A5+155125]
+	GetHandleVerifier [0x00E15A4D+182173]
+	GetHandleVerifier [0x00DFF8A8+91640]
+	GetHandleVerifier [0x00DFFA50+92064]
+	GetHandleVerifier [0x00DEA510+4704]
+	BaseThreadInitThunk [0x7627FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x778F82AE+286]
+	RtlGetAppContainerNamedObjectPath [0x778F827E+238]
+
+2025-04-22 19:55:23,121 - INFO - Finalizando WebDriver...
+2025-04-22 19:55:29,920 - INFO - Inicializando ChromeDriver...
+2025-04-22 19:55:29,921 - INFO - ====== WebDriver manager ======
+2025-04-22 19:55:33,132 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-22 19:55:33,256 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-22 19:55:33,422 - INFO - Driver [C:\Users\Kauã\.wdm\drivers\chromedriver\win64\135.0.7049.97\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-22 19:55:36,475 - INFO - ChromeDriver inicializado com sucesso.
+2025-04-22 19:55:36,522 - INFO - Acessando URL: https://sgd.dominiosistemas.com.br
+2025-04-22 19:55:37,423 - INFO - Aguardando campos de login...
+2025-04-22 19:55:37,491 - INFO - Preenchendo credenciais...
+2025-04-22 19:55:42,977 - INFO - Acessando URL de programações: https://sgd.dominiosistemas.com.br/sgsc/faces/programacoes.html
+2025-04-22 19:56:17,762 - INFO - Preenchendo data inicial...
+2025-04-22 19:56:18,330 - INFO - Preenchendo data final...
+2025-04-22 19:56:18,773 - INFO - Clicando no botão de salvar...
+2025-04-22 19:56:27,351 - INFO - Clicando no botão de gerar relatório...
+2025-04-22 19:56:37,342 - INFO - Aguardando link de download...
+2025-04-22 19:56:37,404 - INFO - URL de download obtido: https://sgd.dominiosistemas.com.br/comum/relatorios/0001745362589189-9175115738091406529.xlsx
+2025-04-22 19:56:37,412 - INFO - Iniciando download do arquivo...
+2025-04-22 19:56:38,096 - INFO - Arquivo baixado e renomeado para: C:\Users\Kauã\Downloads\010425_300425.xlsx
+2025-04-22 19:56:39,421 - INFO - Dados Excel lidos com sucesso. Colunas: ['Número', 'Data de entrada', 'Unidade', 'Estado', 'Cidade', 'Cliente', 'Cliente Referencial', 'Segmento', 'Produto', 'Modulo', 'Tipo', 'Responsável', 'Agendado', 'Situação', 'Tempo Realizado', 'Local do Treinamento']
+2025-04-22 19:56:39,421 - INFO - Colunas: Responsável -> Responsável, Situação -> Situação, Data -> Data de entrada
+2025-04-22 19:56:39,429 - INFO - Linhas após exclusão de responsáveis: 531
+2025-04-22 19:56:39,430 - INFO - Situações encontradas: ['Em Andamento' 'Realizado' 'Não Iniciado' 'Concluído'
+ 'Cancelado pelo Cliente' 'Cancelado pela Unidade' 'Não Realizado'
+ 'Cancelado' 'nan' 'Sem Análise']
+2025-04-22 19:56:39,441 - INFO - Tabela dinâmica criada com sucesso.
+2025-04-22 19:56:42,122 - INFO - Arquivo processado: C:\Users\Kauã\Downloads\010425_300425.xlsx
+2025-04-22 19:56:42,126 - INFO - Finalizando WebDriver...
+2025-05-11 11:41:57,221 - INFO - Inicializando ChromeDriver...
+2025-05-11 11:41:57,222 - INFO - ====== WebDriver manager ======
+2025-05-11 11:41:58,666 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 11:41:58,853 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 11:41:58,998 - INFO - There is no [win64] chromedriver "136.0.7103.92" for browser google-chrome "136.0.7103" in cache
+2025-05-11 11:41:58,999 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 11:41:59,374 - INFO - WebDriver version 136.0.7103.92 selected
+2025-05-11 11:41:59,381 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.92/win32/chromedriver-win32.zip
+2025-05-11 11:41:59,382 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.92/win32/chromedriver-win32.zip
+2025-05-11 11:41:59,585 - INFO - Driver downloading response is 200
+2025-05-11 11:42:00,005 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 11:42:01,457 - INFO - Driver has been saved in cache [C:\Users\Kauã\.wdm\drivers\chromedriver\win64\136.0.7103.92]
+2025-05-11 11:42:04,710 - INFO - ChromeDriver inicializado com sucesso.
+2025-05-11 11:42:04,869 - INFO - Acessando URL: https://sgd.dominiosistemas.com.br
+2025-05-11 11:42:05,716 - INFO - Aguardando campos de login...
+2025-05-11 11:42:05,780 - INFO - Preenchendo credenciais...
+2025-05-11 11:42:11,026 - INFO - Acessando URL de programações: https://sgd.dominiosistemas.com.br/sgsc/faces/programacoes.html
+2025-05-11 11:42:12,033 - INFO - Preenchendo data inicial...
+2025-05-11 11:42:12,367 - INFO - Preenchendo data final...
+2025-05-11 11:42:12,660 - INFO - Clicando no botão de salvar...
+2025-05-11 11:42:17,796 - INFO - Clicando no botão de gerar relatório...
+2025-05-11 11:42:27,599 - INFO - Aguardando link de download...
+2025-05-11 11:42:27,754 - INFO - URL de download obtido: https://sgd.dominiosistemas.com.br/comum/relatorios/0001746974538220-4301668759901316361.xlsx
+2025-05-11 11:42:27,762 - INFO - Iniciando download do arquivo...
+2025-05-11 11:42:28,026 - INFO - Arquivo baixado e renomeado para: C:\Users\Kauã\Downloads\010525_310525.xlsx
+2025-05-11 11:42:28,568 - INFO - Dados Excel lidos com sucesso. Colunas: ['Número', 'Data de entrada', 'Unidade', 'Estado', 'Cidade', 'Cliente', 'Cliente Referencial', 'Segmento', 'Produto', 'Modulo', 'Tipo', 'Responsável', 'Agendado', 'Situação', 'Tempo Realizado', 'Local do Treinamento']
+2025-05-11 11:42:28,569 - INFO - Colunas: Responsável -> Responsável, Situação -> Situação, Data -> Data de entrada
+2025-05-11 11:42:28,591 - INFO - Linhas após exclusão de responsáveis: 253
+2025-05-11 11:42:28,594 - INFO - Situações encontradas: ['Não Iniciado' 'Realizado' 'Em Andamento' 'Cancelado pela Unidade'
+ 'Cancelado pelo Cliente' 'Concluído' 'Cancelado' 'Sem Análise']
+2025-05-11 11:42:28,611 - INFO - Tabela dinâmica criada com sucesso.
+2025-05-11 11:42:30,916 - INFO - Arquivo processado: C:\Users\Kauã\Downloads\010525_310525.xlsx
+2025-05-11 11:42:30,922 - INFO - Finalizando WebDriver...
+2025-05-11 11:44:27,000 - INFO - Inicializando ChromeDriver...
+2025-05-11 11:44:27,000 - INFO - ====== WebDriver manager ======
+2025-05-11 11:44:28,476 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 11:44:28,642 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 11:44:28,781 - INFO - Driver [C:\Users\Kauã\.wdm\drivers\chromedriver\win64\136.0.7103.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-11 11:44:31,762 - INFO - ChromeDriver inicializado com sucesso.
+2025-05-11 11:44:32,174 - INFO - Acessando URL: https://sgd.dominiosistemas.com.br
+2025-05-11 11:44:32,779 - INFO - Aguardando campos de login...
+2025-05-11 11:44:32,848 - INFO - Preenchendo credenciais...
+2025-05-11 11:44:38,139 - INFO - Acessando URL de programações: https://sgd.dominiosistemas.com.br/sgsc/faces/programacoes.html
+2025-05-11 11:44:39,009 - INFO - Preenchendo data inicial...
+2025-05-11 11:44:39,392 - INFO - Preenchendo data final...
+2025-05-11 11:44:39,873 - INFO - Clicando no botão de salvar...
+2025-05-11 11:44:45,030 - INFO - Clicando no botão de gerar relatório...
+2025-05-11 11:44:50,218 - INFO - Aguardando link de download...
+2025-05-11 11:44:50,401 - INFO - URL de download obtido: https://sgd.dominiosistemas.com.br/comum/relatorios/0001746974685540-7547032702186110406.xlsx
+2025-05-11 11:44:50,409 - INFO - Iniciando download do arquivo...
+2025-05-11 11:44:50,701 - INFO - Arquivo baixado e renomeado para: C:\Users\Kauã\Downloads\010425_300425.xlsx
+2025-05-11 11:44:51,863 - INFO - Dados Excel lidos com sucesso. Colunas: ['Número', 'Data de entrada', 'Unidade', 'Estado', 'Cidade', 'Cliente', 'Cliente Referencial', 'Segmento', 'Produto', 'Modulo', 'Tipo', 'Responsável', 'Agendado', 'Situação', 'Tempo Realizado', 'Local do Treinamento']
+2025-05-11 11:44:51,864 - INFO - Colunas: Responsável -> Responsável, Situação -> Situação, Data -> Data de entrada
+2025-05-11 11:44:51,874 - INFO - Linhas após exclusão de responsáveis: 659
+2025-05-11 11:44:51,875 - INFO - Situações encontradas: ['Prescrita' 'Cancelado pelo Cliente' 'Concluído' 'Não Iniciado'
+ 'Realizado' 'Não Realizado' 'nan' 'Cancelado pela Unidade' 'Em Andamento'
+ 'Cancelado' 'Sem Análise']
+2025-05-11 11:44:51,886 - INFO - Tabela dinâmica criada com sucesso.
+2025-05-11 11:44:54,389 - INFO - Arquivo processado: C:\Users\Kauã\Downloads\010425_300425.xlsx
+2025-05-11 11:44:54,397 - INFO - Finalizando WebDriver...

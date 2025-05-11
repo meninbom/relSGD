@@ -644,7 +644,7 @@ class TelaConfiguracoes(ctk.CTkToplevel):
         
         self.btn_dir = ctk.CTkButton(self.frame_dir, text="...", width=30, command=self.selecionar_diretorio)
         self.btn_dir.pack(side="right", padx=5)
-    
+  
     def configurar_aba_responsaveis(self):
         self.frame_resp = ctk.CTkFrame(self.tab_responsaveis)
         self.frame_resp.pack(fill="both", expand=True, padx=10, pady=10)
@@ -676,6 +676,7 @@ class TelaConfiguracoes(ctk.CTkToplevel):
     
     def configurar_aba_cores(self):
         self.frame_cores = ctk.CTkFrame(self.tab_cores)
+
         self.frame_cores.pack(fill="both", expand=True, padx=10, pady=10)
         
         ctk.CTkLabel(self.frame_cores, text="Cores dos gráficos:").pack(anchor="w", padx=10, pady=5)
